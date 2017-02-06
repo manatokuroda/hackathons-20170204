@@ -1,10 +1,18 @@
-{
+
+  // 9のステップを踏んだ場合は以下のコメントを外す
+  // "database": {
+  //   "rules": "database-rules.json"
+  // },
+  // 12のステップを踏んだ場合は以下のコメントを外す
+  // "storage": {
+  //   "rules": "storage.rules"
+  // },
   "hosting": {
     "public": "./",
     "ignore": [
-      "firebase.json",
-      "database-rules.json",
-      "storage.rules"
+      "firebase.json"//,
+      // "database-rules.json",//9のステップを踏んだ場合はコメントを外す（上の行のコメントも）
+      // "storage.rules"// 12のステップを踏んだ場合はコメントを外す（同上）
     ]
   }
 }
